@@ -418,78 +418,7 @@ nav:hover{
     /* position: absolute; */
 }
 
-/* @media(min-width: 640px)
-{
-    nav{
-        padding-left: 10px;
-        font-size: 10px;
-    }
-    .nav-middle{
-        width: 30%;
-        gap:16px;
-        margin-left: 14px;
-
-    }
-
-    nav .logo{
-        margin-left: 1px;
-    }
-
-    .nav-right{
-        margin-right: 100px;
-        /* background-color: yellow; */
-        gap: 10px;
-        /* width: 15%; */
-    }
-
-    .hero .text{
-        padding-top: 0px;
-        /* background-color: pink; */
-    }
-
-    .hero .text h1{
-        font-size: 30px;
-    }
-
-    .overlay1{
-        justify-content: center;
-    }
-
-    .box{
-        height: 170px;
-        width: 170px;
-    
-    }
-
-    .overlay{
-        padding: 4px;
-
-    }
-
-    .text-cont{
-        margin-top: 10px;
-        gap: 2px;
-    }
-
-    .each-text{
-        height:1vh;
-    }
-}
-
-@media(min-width: 768px)
-{
-
-}
-
-@media(min-width: 1024px)
-{
-
-}
-
-@media(min-width: 1280px)
-{
-
-} */
+/*  */
 
 
 
