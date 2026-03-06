@@ -518,7 +518,7 @@ nav:hover{
     padding-right: 10%;
     margin-bottom: 2%;
 }
-.up{
+.product-title{
     margin-top: 10vh;
     height: 20%;
     width: 100%;
@@ -528,11 +528,11 @@ nav:hover{
     align-items: center;
     gap: 66%;
 }
-.up h1{
+.product-title h1{
     font-size: 50px;
     font-weight: 400;
 }
-.up button{
+.product-title button{
     padding: 10px;
     border: 1px solid black;
     background-color: transparent;
@@ -540,7 +540,7 @@ nav:hover{
     border-radius: 7px;
     font-size: 15px;
 }
-.bottom{
+.prod-deets{
     height: 80%;
     width: 100%;
     display: flex;
@@ -574,6 +574,8 @@ nav:hover{
 .product-box:hover img{
     transform: scale(1.2);
 }
+
+
 .solution{
     height: 70vh;
     width: 100%;
@@ -581,7 +583,7 @@ nav:hover{
     padding-top: 5%;
     color: white;
 }
-.up1{
+.soln-title{
     height: 50%;
     width: 100%;
     display: flex;
@@ -589,7 +591,7 @@ nav:hover{
     padding-left: 10%;
 }
 
-.lt{
+.left{
     height: 100%;
     width: 70%;
     display: flex;
@@ -599,27 +601,27 @@ nav:hover{
     align-items: flex-start;
 }
 
-.lt p{
+.left p{
     font-size: 18px;
 }
 
-.lt h1{
+.left h1{
     font-size: 40px;
     font-weight: 400;
 }
 
-.rt{
+.right{
     height: 100%;
     width: 30%;
 }
 
-.rt img{
+.right img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.bottom1{
+.sol-marquee{
     height: 50%;
     width: 100%;
     display: flex;
@@ -666,7 +668,7 @@ nav:hover{
     background-color: #FFFDF5;
 }
 
-.top2{
+.fact-title{
     height: 20%;
     display: flex;
     align-items: center;
@@ -674,17 +676,17 @@ nav:hover{
     padding-left: 10%;
 }
 
-.top2 h1{
+.fact-title h1{
     font-size: 40px;
     font-weight: 400;
 }
 
-.top2 p{
+.fact-title p{
     font-size: 16px;
     font-weight: 500;
 }
 
-.bottom2{
+.list{
     height: 80%;
     display: flex;
     justify-content: center;
@@ -693,12 +695,12 @@ nav:hover{
     padding-left: 10%;
 }
 
-.l1{
+.list1{
     height: 100%;
     width: 50%;
 }
 
-.r1{
+.list2{
     height: 100%;
     width: 50%;
 }
@@ -751,7 +753,7 @@ nav:hover{
   font-size: 45px;
   font-weight: 400;
 }
-.aerrow {
+.arrow {
   height: 60px;
   width: 60px;
   border-radius: 5px;
@@ -763,14 +765,14 @@ nav:hover{
   align-items: center;
   justify-content: center;
 }
-.aerrow svg {
+.arrow svg {
   rotate: -90deg;
   overflow: hidden;
 }
-.aerrow:hover {
+.arrow:hover {
   border-radius: 15px;
 }
-.aerrow-overlay {
+.arrow-overlay {
   transition: all ease 0.4s;
   background-color: #12271d;
   position: absolute;
@@ -781,7 +783,7 @@ nav:hover{
   align-items: center;
   justify-content: center;
 }
-.aerrow:hover .aerrow-overlay {
+.arrow:hover .arrow-overlay {
   bottom: 0%;
 }
 .footer-box-container {
